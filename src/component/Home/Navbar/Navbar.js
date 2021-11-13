@@ -36,7 +36,7 @@ const Navbar = () => {
                             <HashLink to="/home#footer">About us</HashLink>
                         </li>
                         <li>
-                            <Link to='/login'>{loggedInUser.email ? <Link to='/home' className='position' onClick={() => setLoggedIn('')}>Sing Out</Link> : 'Sing In'}</Link>
+                            <Link to='/login'>{loggedInUser.email ? <Link to='/home' className='position' onClick={() => setLoggedIn('')}>Sign Out</Link> : 'Sign In'}</Link>
                         </li>
                     </ul>
                 </div>
